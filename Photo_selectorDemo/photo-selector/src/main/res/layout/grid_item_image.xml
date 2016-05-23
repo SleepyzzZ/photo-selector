@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sleepyzzz.photo_selector.view.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.sleepyzzz.photo_selector.view.SquaredImageView
+        android:id="@+id/siv_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_error"/>
+
+    <View
+        android:id="@+id/mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_checkmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="5.5dp"
+        android:layout_marginTop="5.5dp"
+        android:background="@null"
+        android:src="@drawable/btn_unselected"/>
+
+</com.sleepyzzz.photo_selector.view.SquareFrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="csleftImageViewDrawable" format="reference"/>
+        <attr name="csleftText" format="string"/>
+        <attr name="csleftTextColor" format="color"/>
+        <attr name="csleftTextSize" format="dimension"/>
+        <attr name="csrightBackground" format="reference|color"/>
+        <attr name="csrightText" format="string"/>
+        <attr name="csrightTextColor" format="color"/>
+        <attr name="csrightTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>

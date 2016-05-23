@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.sleepyzzz.photo_selector.view.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        custom:csleftImageViewDrawable="@drawable/btn_back"
+        custom:csleftText="@string/images"
+        custom:csleftTextColor="@android:color/white"
+        custom:csleftTextSize="20sp"
+        custom:csrightBackground="@drawable/action_btn"
+        custom:csrightText="@string/action_done"
+        custom:csrightTextColor="@color/default_text_color"
+        custom:csrightTextSize="14sp">
+
+    </com.sleepyzzz.photo_selector.view.TopBar>
+
+</RelativeLayout>

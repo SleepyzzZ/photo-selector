@@ -1,0 +1,10 @@
+<resources>
+    <string name="folder_all">All Images</string>
+    <string name="preview">Preview</string>
+    <string name="msg_amount_limit">Select images amount is limit</string>
+    <string name="action_done">Done</string>
+    <string name="photo_unit">Shot</string>
+    <string name="choose">Choose</string>
+    <string name="back">Back</string>
+    <string name="images">Images</string>
+</resources>

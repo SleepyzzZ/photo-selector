@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_amount_limit">已经达到最高的选择数量</string>
+    <string name="action_done">完成</string>
+    <string name="photo_unit">张</string>
+    <string name="choose">选择</string>
+    <string name="back">返回</string>
+    <string name="images">图片</string>
+</resources>
